@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/spacelab/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/homework.css">
+    <title>Cloudiness</title>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class='pl-5'>
+            <a href="index.html">
+                <h1 class="px-3 py-2 bg-primary text-light">Latitude</h1>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse justify-content-end pr-5" id="the_menu">
+            <ul class="navbar-nav">
+                <li class="dropdown pull-right">
+                    <div class="dropdown-toggle text-primary pt-2" id="dropdownMenu1" data-toggle="dropdown">Plots
+                        <ul class="dropdown-menu">
+                            <li><a href="humidity.html" onclick="location.reload();location.href='humidity.html'">Humidity</a></li>
+                            <li><a href="cloudiness.html" onclick="location.reload();location.href='cloudiness.html'">Cloudiness</a></li>
+                            <li><a href="temperature.html" onclick="location.reload();location.href='temperature.html'">Temperature</a></li>
+                            <li><a href="wind.html" onclick="location.reload();location.href='wind.html'">Wind Speed</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row py-4 px-5"></div>
+
+    <div class="row">
+        <div class="col-md-8 pb-3 bg-lightgray text-primary">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h1 class="card-title">Latitude vs Cloudiness</h1>
+                        <img class="rounded float-center" src=".\images\Cloudiness_vs_Latitude.png" width="90%" height="90%">
+                    </div>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 bg-lightgray text-primary">
+            <div class="card">
+                <div class="card-body">
+                    <div class="center-block">
+                        <h1 class="card-title">Visualizations</h1>
+                        <a href="humidity.html"><img class="rounded" src=".\images\Humidity_vs_Latitude.png" width="40%" height="40%"></a>
+                        <a href="wind.html"><img class="rounded" src=".\images\Wind_Speed_vs_Latitude.png" width="40%" height="40%"></a>
+                        <a href="cloudiness.html"><img class="rounded" src=".\images\Cloudiness_vs_Latitude.png" width="40%" height="40%"></a>  
+                        <a href="temperature.html"><img class="rounded" src=".\images\Temp_vs_Latitude.png" width="40%" height="40%"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            
+</body>

@@ -1,0 +1,36 @@
+.temp .lead {
+    font-size: 25px;
+    color: #fff;
+}
+
+.temp > .col-md-12 {
+    padding-top: 1.00rem;
+    padding-bottom: .5rem;
+    margin: 1.00rem;
+    border-radius: 1%;
+    background-color: #32383E;
+    border: 1px solid #eee;
+}
+
+.temp > .col-md-6 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1px;
+    border-radius: 1%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.center-block {
+    text-align:center
+ }
+
+.table td.text span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 100%;
+}
